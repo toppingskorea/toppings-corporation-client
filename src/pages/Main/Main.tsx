@@ -19,10 +19,6 @@ const Main = () => {
       <TImage src={Images.design04} alt="팀원 모집 상세내용" />
       <TImage src={Images.design05} alt="연락 기다리고 있어요!" />
       <SizedBox height={20} />
-      <Title1 weight={EXTRA_BOLD_WEIGHT} alignCenter>
-        THANK YOU
-      </Title1>
-      <SizedBox height={20} />
     </Container>
   );
 };
