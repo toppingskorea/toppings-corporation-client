@@ -9,7 +9,7 @@ on:
     branches: ["master"]
 
 env:
-  DOCKER_IMAGE: ghcr.io/toppings
+  DOCKER_IMAGE: ghcr.io/toppingskorea/toppings-corporation-client
   VERSION: ${{ github.sha }}
   NAME: toppings
 
