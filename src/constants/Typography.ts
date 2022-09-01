@@ -17,7 +17,7 @@ export const Text = styled.span<{
 }>`
   color: ${({ color }) => color || Colors.black};
   display: inline-block;
-  /* font-family: ${({ fontFamily }) => fontFamily || "NanumMyeongjo"}; */
+  font-family: ${({ fontFamily }) => fontFamily || "Roboto"};
 
   letter-spacing: -${({ letterSpacing }) => pxToRem(letterSpacing || 0.5)};
   ${({ lineHeight }) =>
