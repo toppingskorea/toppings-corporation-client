@@ -5,6 +5,7 @@ import { pxToRem } from "~/constants/Size";
 
 const Container = styled(FlexBox)`
   width: ${pxToRem(1080)};
+  height: 100vh;
   margin: 0 auto;
 
   background-color: #ffffff;
