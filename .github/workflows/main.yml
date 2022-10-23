@@ -62,4 +62,4 @@ jobs:
         run: |
           pwd
           docker stop ${{ env.NAME }} && docker rm ${{ env.NAME }} && docker rmi ${{ env.DOCKER_IMAGE }}:latest
-          docker run -d -p 80:80 --name ${{ env.NAME }} --restart always ${{ env.DOCKER_IMAGE }}:latest
+          docker run -itd --name ${{ env.NAME }} -e VIRTUAL_HOST=toppings.co.kr --restart always ${{ env.DOCKER_IMAGE }}:latest
